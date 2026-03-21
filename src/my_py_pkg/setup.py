@@ -34,6 +34,8 @@ setup(
 	'subscriber_node = my_py_pkg.subscriber_node:main',
 	'add_two_ints_server = my_py_pkg.add_two_ints_server:main', 
 	'param_node = my_py_pkg.param_node:main',
+	'turtle_controller = my_py_pkg.turtle_controller:main',
+    
 
     
 ],

@@ -4,3 +4,4 @@ my_first_node = my_py_pkg.my_first_node:main
 param_node = my_py_pkg.param_node:main
 publisher_node = my_py_pkg.publisher_node:main
 subscriber_node = my_py_pkg.subscriber_node:main
+turtle_controller = my_py_pkg.turtle_controller:main
