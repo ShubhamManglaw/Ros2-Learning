@@ -33,8 +33,11 @@ setup(
         'publisher_node = my_py_pkg.publisher_node:main',
 	'subscriber_node = my_py_pkg.subscriber_node:main',
 	'add_two_ints_server = my_py_pkg.add_two_ints_server:main', 
-	'param_node = my_py_pkg.param_node:main',
-	'turtle_controller = my_py_pkg.turtle_controller:main',
+	 'param_node = my_py_pkg.param_node:main',
+        'turtle_controller = my_py_pkg.turtle_controller:main',
+        'command_publisher = my_py_pkg.command_publisher:main',
+        'command_subscriber = my_py_pkg.command_subscriber:main',
+        'smart_controller = my_py_pkg.smart_controller:main',
     
 
     

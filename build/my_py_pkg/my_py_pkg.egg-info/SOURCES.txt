@@ -12,9 +12,12 @@ launch/my_launch.py
 launch/turtle_system.launch.py
 my_py_pkg/__init__.py
 my_py_pkg/add_two_ints_server.py
+my_py_pkg/command_publisher.py
+my_py_pkg/command_subscriber.py
 my_py_pkg/my_first_node.py
 my_py_pkg/param_node.py
 my_py_pkg/publisher_node.py
+my_py_pkg/smart_controller.py
 my_py_pkg/subscriber_node.py
 my_py_pkg/turtle_controller.py
 resource/my_py_pkg
