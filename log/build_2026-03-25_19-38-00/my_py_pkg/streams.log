@@ -1,0 +1,72 @@
+[1.839s] Invoking command in '/home/shubham/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shubham/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/shubham/ros2_ws/build/my_py_pkg/build install --record /home/shubham/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.228s] running egg_info
+[2.229s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[2.257s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.257s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.258s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.258s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.258s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.258s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.316s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.316s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.317s] running build
+[2.317s] running build_py
+[2.317s] creating /home/shubham/ros2_ws/build/my_py_pkg/build
+[2.317s] creating /home/shubham/ros2_ws/build/my_py_pkg/build/lib
+[2.317s] creating /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.317s] copying my_py_pkg/add_two_ints_server.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.318s] copying my_py_pkg/param_node.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.318s] copying my_py_pkg/my_first_node.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.318s] copying my_py_pkg/smart_controller.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.318s] copying my_py_pkg/command_publisher.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.318s] copying my_py_pkg/__init__.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.318s] copying my_py_pkg/turtle_controller.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.319s] copying my_py_pkg/subscriber_node.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.319s] copying my_py_pkg/publisher_node.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.319s] copying my_py_pkg/command_subscriber.py -> /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.319s] running install
+[2.328s] running install_lib
+[2.357s] creating /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.357s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.357s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/param_node.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.358s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.358s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smart_controller.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.358s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/command_publisher.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.358s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.358s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.358s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/subscriber_node.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.359s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/publisher_node.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.359s] copying /home/shubham/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/command_subscriber.py -> /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.359s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-312.pyc
+[2.360s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/param_node.py to param_node.cpython-312.pyc
+[2.361s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[2.361s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/smart_controller.py to smart_controller.cpython-312.pyc
+[2.362s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/command_publisher.py to command_publisher.cpython-312.pyc
+[2.364s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[2.364s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-312.pyc
+[2.364s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/subscriber_node.py to subscriber_node.cpython-312.pyc
+[2.364s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/publisher_node.py to publisher_node.cpython-312.pyc
+[2.365s] byte-compiling /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/command_subscriber.py to command_subscriber.cpython-312.pyc
+[2.365s] running install_data
+[2.365s] creating /home/shubham/ros2_ws/install/my_py_pkg/share/ament_index
+[2.366s] creating /home/shubham/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.366s] creating /home/shubham/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.366s] copying resource/my_py_pkg -> /home/shubham/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.366s] copying package.xml -> /home/shubham/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.366s] creating /home/shubham/ros2_ws/install/my_py_pkg/share/my_py_pkg/launch
+[2.366s] copying launch/turtle_system.launch.py -> /home/shubham/ros2_ws/install/my_py_pkg/share/my_py_pkg/launch
+[2.366s] copying launch/my_launch.py -> /home/shubham/ros2_ws/install/my_py_pkg/share/my_py_pkg/launch
+[2.366s] running install_egg_info
+[2.397s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[2.398s] running install_scripts
+[2.591s] Installing add_two_ints_server script to /home/shubham/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.591s] Installing command_publisher script to /home/shubham/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.592s] Installing command_subscriber script to /home/shubham/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.592s] Installing my_first_node script to /home/shubham/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.592s] Installing param_node script to /home/shubham/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.592s] Installing publisher_node script to /home/shubham/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.592s] Installing smart_controller script to /home/shubham/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.592s] Installing subscriber_node script to /home/shubham/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.592s] Installing turtle_controller script to /home/shubham/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.593s] writing list of installed files to '/home/shubham/ros2_ws/build/my_py_pkg/install.log'
+[2.639s] Invoked command in '/home/shubham/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shubham/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shubham/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/shubham/ros2_ws/build/my_py_pkg/build install --record /home/shubham/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

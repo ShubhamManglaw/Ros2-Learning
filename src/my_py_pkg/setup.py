@@ -38,6 +38,7 @@ setup(
         'command_publisher = my_py_pkg.command_publisher:main',
         'command_subscriber = my_py_pkg.command_subscriber:main',
         'smart_controller = my_py_pkg.smart_controller:main',
+        'compute_service = my_py_pkg.compute_service:main',
     
 
     

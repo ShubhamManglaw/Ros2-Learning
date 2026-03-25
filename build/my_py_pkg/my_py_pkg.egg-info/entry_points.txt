@@ -2,6 +2,7 @@
 add_two_ints_server = my_py_pkg.add_two_ints_server:main
 command_publisher = my_py_pkg.command_publisher:main
 command_subscriber = my_py_pkg.command_subscriber:main
+compute_service = my_py_pkg.compute_service:main
 my_first_node = my_py_pkg.my_first_node:main
 param_node = my_py_pkg.param_node:main
 publisher_node = my_py_pkg.publisher_node:main

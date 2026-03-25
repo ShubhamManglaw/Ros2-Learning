@@ -3,10 +3,17 @@
   "output_dir": "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces",
   "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/RobotCommand.idl"
+    "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/RobotCommand.idl",
+    "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeSpeed.idl"
   ],
   "ros_interface_files": [
-    "/home/shubham/ros2_ws/src/my_robot_interfaces/msg/RobotCommand.msg"
+    "/home/shubham/ros2_ws/src/my_robot_interfaces/msg/RobotCommand.msg",
+    "/home/shubham/ros2_ws/src/my_robot_interfaces/srv/ComputeSpeed.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "target_dependencies": [
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -28,9 +35,14 @@
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/RobotCommand.idl"
+    "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/RobotCommand.idl",
+    "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeSpeed.idl",
+    "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"
   ],
   "type_description_tuples": [
-    "msg/RobotCommand.idl:/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/RobotCommand.json"
+    "msg/RobotCommand.idl:/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/RobotCommand.json",
+    "srv/ComputeSpeed.idl:/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/srv/ComputeSpeed.json"
   ]
 }

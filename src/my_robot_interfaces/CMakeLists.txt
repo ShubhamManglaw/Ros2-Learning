@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 # 🔥 Generate message (MUST be before ament_package)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/RobotCommand.msg"
+  "srv/ComputeSpeed.srv"
 )
 
 # Testing (optional, keep as is)

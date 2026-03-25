@@ -67,6 +67,8 @@ include CMakeFiles/my_robot_interfaces.dir/compiler_depend.make
 include CMakeFiles/my_robot_interfaces.dir/progress.make
 
 CMakeFiles/my_robot_interfaces: /home/shubham/ros2_ws/src/my_robot_interfaces/msg/RobotCommand.msg
+CMakeFiles/my_robot_interfaces: /home/shubham/ros2_ws/src/my_robot_interfaces/srv/ComputeSpeed.srv
+CMakeFiles/my_robot_interfaces: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 my_robot_interfaces: CMakeFiles/my_robot_interfaces
 my_robot_interfaces: CMakeFiles/my_robot_interfaces.dir/build.make

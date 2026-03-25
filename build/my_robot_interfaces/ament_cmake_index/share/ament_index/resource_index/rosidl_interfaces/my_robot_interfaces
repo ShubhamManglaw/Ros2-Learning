@@ -1,2 +1,4 @@
 msg/RobotCommand.idl
 msg/RobotCommand.msg
+srv/ComputeSpeed.idl
+srv/ComputeSpeed.srv

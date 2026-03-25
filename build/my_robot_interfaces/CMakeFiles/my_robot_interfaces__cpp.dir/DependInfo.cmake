@@ -17,6 +17,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/robot_command__traits.hpp" "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/robot_command.hpp"
   "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/detail/robot_command__type_support.hpp" "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/robot_command.hpp"
   "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp" "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/robot_command.hpp"
+  "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/compute_speed.hpp" "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/robot_command.hpp"
+  "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_speed__builder.hpp" "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/robot_command.hpp"
+  "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_speed__struct.hpp" "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/robot_command.hpp"
+  "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_speed__traits.hpp" "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/robot_command.hpp"
+  "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/srv/detail/compute_speed__type_support.hpp" "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_cpp/my_robot_interfaces/msg/robot_command.hpp"
   )
 
 
