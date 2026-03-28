@@ -8,15 +8,18 @@ class SpeedService(Node):
         self.srv = self.create_service(ComputeSpeed, 'compute_speed', self.callback)
 
     def callback(self, request, response):
-        if request.input < 2.0:
+
+        distance = request.input
+
+        if distance < 1:
             response.speed = 0.0
-        elif request.input < 5.0:
+        elif distance < 3:
             response.speed = 2.0
         else:
             response.speed = 5.0
 
-        self.get_logger().info(f"Input: {request.input} → Speed: {response.speed}")
         return response
+
 
 def main(args=None):
     rclpy.init(args=args)

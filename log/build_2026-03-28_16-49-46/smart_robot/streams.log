@@ -1,0 +1,32 @@
+[2.818s] Invoking command in '/home/shubham/ros2_ws/src/smart_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shubham/ros2_ws/build/smart_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_robot build --build-base /home/shubham/ros2_ws/build/smart_robot/build install --record /home/shubham/ros2_ws/build/smart_robot/install.log --single-version-externally-managed install_data
+[3.463s] running egg_info
+[3.501s] writing ../../build/smart_robot/smart_robot.egg-info/PKG-INFO
+[3.502s] writing dependency_links to ../../build/smart_robot/smart_robot.egg-info/dependency_links.txt
+[3.503s] writing entry points to ../../build/smart_robot/smart_robot.egg-info/entry_points.txt
+[3.503s] writing requirements to ../../build/smart_robot/smart_robot.egg-info/requires.txt
+[3.503s] writing top-level names to ../../build/smart_robot/smart_robot.egg-info/top_level.txt
+[3.566s] reading manifest file '../../build/smart_robot/smart_robot.egg-info/SOURCES.txt'
+[3.567s] writing manifest file '../../build/smart_robot/smart_robot.egg-info/SOURCES.txt'
+[3.567s] running build
+[3.568s] running build_py
+[3.568s] copying smart_robot/speed_service.py -> /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot
+[3.568s] copying smart_robot/sensor_node.py -> /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot
+[3.569s] copying smart_robot/controller_node.py -> /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot
+[3.571s] running install
+[3.576s] running install_lib
+[3.606s] copying /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot/speed_service.py -> /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot
+[3.606s] copying /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot/sensor_node.py -> /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot
+[3.606s] copying /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot/controller_node.py -> /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot
+[3.607s] byte-compiling /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot/speed_service.py to speed_service.cpython-312.pyc
+[3.608s] byte-compiling /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot/sensor_node.py to sensor_node.cpython-312.pyc
+[3.608s] byte-compiling /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot/controller_node.py to controller_node.cpython-312.pyc
+[3.609s] running install_data
+[3.610s] running install_egg_info
+[3.641s] removing '/home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot-0.0.0-py3.12.egg-info' (and everything under it)
+[3.642s] Copying ../../build/smart_robot/smart_robot.egg-info to /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot-0.0.0-py3.12.egg-info
+[3.643s] running install_scripts
+[3.866s] Installing controller_node script to /home/shubham/ros2_ws/install/smart_robot/lib/smart_robot
+[3.866s] Installing sensor_node script to /home/shubham/ros2_ws/install/smart_robot/lib/smart_robot
+[3.866s] Installing speed_service script to /home/shubham/ros2_ws/install/smart_robot/lib/smart_robot
+[3.867s] writing list of installed files to '/home/shubham/ros2_ws/build/smart_robot/install.log'
+[3.934s] Invoked command in '/home/shubham/ros2_ws/src/smart_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shubham/ros2_ws/build/smart_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_robot build --build-base /home/shubham/ros2_ws/build/smart_robot/build install --record /home/shubham/ros2_ws/build/smart_robot/install.log --single-version-externally-managed install_data

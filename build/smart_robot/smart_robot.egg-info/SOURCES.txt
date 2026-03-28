@@ -8,6 +8,7 @@ setup.py
 ../../build/smart_robot/smart_robot.egg-info/requires.txt
 ../../build/smart_robot/smart_robot.egg-info/top_level.txt
 ../../build/smart_robot/smart_robot.egg-info/zip-safe
+launch/robot.launch.py
 resource/smart_robot
 smart_robot/__init__.py
 smart_robot/controller_node.py

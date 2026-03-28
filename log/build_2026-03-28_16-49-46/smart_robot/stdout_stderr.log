@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/smart_robot/smart_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/smart_robot/smart_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/smart_robot/smart_robot.egg-info/entry_points.txt
+writing requirements to ../../build/smart_robot/smart_robot.egg-info/requires.txt
+writing top-level names to ../../build/smart_robot/smart_robot.egg-info/top_level.txt
+reading manifest file '../../build/smart_robot/smart_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/smart_robot/smart_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+copying smart_robot/speed_service.py -> /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot
+copying smart_robot/sensor_node.py -> /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot
+copying smart_robot/controller_node.py -> /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot
+running install
+running install_lib
+copying /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot/speed_service.py -> /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot
+copying /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot/sensor_node.py -> /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot
+copying /home/shubham/ros2_ws/build/smart_robot/build/lib/smart_robot/controller_node.py -> /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot
+byte-compiling /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot/speed_service.py to speed_service.cpython-312.pyc
+byte-compiling /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot/sensor_node.py to sensor_node.cpython-312.pyc
+byte-compiling /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot/controller_node.py to controller_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/smart_robot/smart_robot.egg-info to /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot-0.0.0-py3.12.egg-info
+running install_scripts
+Installing controller_node script to /home/shubham/ros2_ws/install/smart_robot/lib/smart_robot
+Installing sensor_node script to /home/shubham/ros2_ws/install/smart_robot/lib/smart_robot
+Installing speed_service script to /home/shubham/ros2_ws/install/smart_robot/lib/smart_robot
+writing list of installed files to '/home/shubham/ros2_ws/build/smart_robot/install.log'
