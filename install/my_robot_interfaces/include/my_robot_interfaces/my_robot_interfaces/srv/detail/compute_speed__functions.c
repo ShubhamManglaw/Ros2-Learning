@@ -241,7 +241,7 @@ my_robot_interfaces__srv__ComputeSpeed_Response__init(my_robot_interfaces__srv__
   if (!msg) {
     return false;
   }
-  // output
+  // speed
   return true;
 }
 
@@ -251,7 +251,7 @@ my_robot_interfaces__srv__ComputeSpeed_Response__fini(my_robot_interfaces__srv__
   if (!msg) {
     return;
   }
-  // output
+  // speed
 }
 
 bool
@@ -260,8 +260,8 @@ my_robot_interfaces__srv__ComputeSpeed_Response__are_equal(const my_robot_interf
   if (!lhs || !rhs) {
     return false;
   }
-  // output
-  if (lhs->output != rhs->output) {
+  // speed
+  if (lhs->speed != rhs->speed) {
     return false;
   }
   return true;
@@ -275,8 +275,8 @@ my_robot_interfaces__srv__ComputeSpeed_Response__copy(
   if (!input || !output) {
     return false;
   }
-  // output
-  output->output = input->output;
+  // speed
+  output->speed = input->speed;
   return true;
 }
 

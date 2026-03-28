@@ -9,7 +9,7 @@ module my_robot_interfaces {
       float input;
     };
     struct ComputeSpeed_Response {
-      float output;
+      float speed;
     };
   };
 };

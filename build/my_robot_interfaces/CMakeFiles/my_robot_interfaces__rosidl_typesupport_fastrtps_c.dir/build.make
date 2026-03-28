@@ -69,44 +69,44 @@ include CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/progre
 # Include the compile flags for this target's objects.
 include CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_c/__init__.py
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/my_robot_interfaces/msg/RobotCommand.idl
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/my_robot_interfaces/srv/ComputeSpeed.idl
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_c/__init__.py
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/my_robot_interfaces/msg/Distance.idl
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/my_robot_interfaces/srv/ComputeSpeed.idl
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support for eProsima Fast-RTPS"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c --generator-arguments-file /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_c__arguments.json
 
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp
 
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__rosidl_typesupport_fastrtps_c.h
 
-rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__type_support_c.cpp: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h
+rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__type_support_c.cpp: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__type_support_c.cpp
 
-CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
-CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp
-CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.o -MF CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.o.d -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.o -c /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.o -MF CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.o.d -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.o -c /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp
 
-CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp > CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.i
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp > CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.i
 
-CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.s
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp -o CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.s
 
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__type_support_c.cpp.o: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__type_support_c.cpp
@@ -124,13 +124,13 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesup
 
 # Object files for target my_robot_interfaces__rosidl_typesupport_fastrtps_c
 my_robot_interfaces__rosidl_typesupport_fastrtps_c_OBJECTS = \
-"CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.o" \
+"CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.o" \
 "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__type_support_c.cpp.o"
 
 # External object files for target my_robot_interfaces__rosidl_typesupport_fastrtps_c
 my_robot_interfaces__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
-libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp.o
+libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp.o
 libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__type_support_c.cpp.o
 libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so: CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make
 libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so: libmy_robot_interfaces__rosidl_generator_c.so
@@ -157,8 +157,8 @@ CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/clean
 
-CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_c.h
-CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/robot_command__type_support_c.cpp
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/my_robot_interfaces/msg/detail/distance__type_support_c.cpp
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/my_robot_interfaces/srv/detail/compute_speed__type_support_c.cpp
 	cd /home/shubham/ros2_ws/build/my_robot_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shubham/ros2_ws/src/my_robot_interfaces /home/shubham/ros2_ws/src/my_robot_interfaces /home/shubham/ros2_ws/build/my_robot_interfaces /home/shubham/ros2_ws/build/my_robot_interfaces /home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake "--color=$(COLOR)"

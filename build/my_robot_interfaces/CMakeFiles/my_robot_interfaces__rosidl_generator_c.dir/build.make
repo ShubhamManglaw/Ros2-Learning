@@ -69,113 +69,113 @@ include CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
 
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/lib/rosidl_generator_c/rosidl_generator_c
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_c/__init__.py
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/action__type_support.h.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/action__type_support.c.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/empty__description.c.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/full__description.c.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl.h.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__description.c.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__functions.c.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__functions.h.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__struct.h.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__type_support.c.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__type_support.h.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__functions.c.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__functions.h.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__struct.h.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__type_support.h.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: rosidl_adapter/my_robot_interfaces/msg/RobotCommand.idl
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: rosidl_adapter/my_robot_interfaces/srv/ComputeSpeed.idl
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_c/my_robot_interfaces/msg/robot_command.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/lib/rosidl_generator_c/rosidl_generator_c
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_c/__init__.py
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/action__type_support.h.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/action__type_support.c.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/empty__description.c.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/full__description.c.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl.h.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__description.c.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__functions.c.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__functions.h.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__struct.h.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__type_support.c.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/idl__type_support.h.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__functions.c.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__functions.h.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__struct.h.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/msg__type_support.h.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.c.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/rosidl_generator_c/resource/srv__type_support.h.em
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: rosidl_adapter/my_robot_interfaces/msg/Distance.idl
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: rosidl_adapter/my_robot_interfaces/srv/ComputeSpeed.idl
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/my_robot_interfaces/msg/distance.h: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c__arguments.json
 
-rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.h: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.h
+rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.h: rosidl_generator_c/my_robot_interfaces/msg/distance.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.h
 
-rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__struct.h: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__struct.h
+rosidl_generator_c/my_robot_interfaces/msg/detail/distance__struct.h: rosidl_generator_c/my_robot_interfaces/msg/distance.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/distance__struct.h
 
-rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.h: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.h
+rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.h: rosidl_generator_c/my_robot_interfaces/msg/distance.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.h
 
-rosidl_generator_c/my_robot_interfaces/srv/compute_speed.h: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
+rosidl_generator_c/my_robot_interfaces/srv/compute_speed.h: rosidl_generator_c/my_robot_interfaces/msg/distance.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/compute_speed.h
 
-rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__functions.h: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__functions.h: rosidl_generator_c/my_robot_interfaces/msg/distance.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__functions.h
 
-rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__struct.h: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__struct.h: rosidl_generator_c/my_robot_interfaces/msg/distance.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__struct.h
 
-rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__type_support.h: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__type_support.h: rosidl_generator_c/my_robot_interfaces/msg/distance.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__type_support.h
 
-rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c
+rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c: rosidl_generator_c/my_robot_interfaces/msg/distance.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c
 
-rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c
+rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c: rosidl_generator_c/my_robot_interfaces/msg/distance.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c
 
-rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c
+rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c: rosidl_generator_c/my_robot_interfaces/msg/distance.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c
 
-rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__description.c: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__description.c: rosidl_generator_c/my_robot_interfaces/msg/distance.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__description.c
 
-rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__functions.c: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__functions.c: rosidl_generator_c/my_robot_interfaces/msg/distance.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__functions.c
 
-rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__type_support.c: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
+rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__type_support.c: rosidl_generator_c/my_robot_interfaces/msg/distance.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__type_support.c
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.o: rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.o -c /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.o: rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.o -c /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c > CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.i
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c > CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.i
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.s
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.s
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.o: rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.o -c /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.o: rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.o -c /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c > CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.i
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c > CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.i
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.s
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.s
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.o: rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.o -c /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.o: rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/ros2_ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.o -MF CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.o.d -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.o -c /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c > CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.i
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c > CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.i
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.s
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c -o CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.s
 
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__description.c.o: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__description.c.o: rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__description.c
@@ -221,9 +221,9 @@ CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_rob
 
 # Object files for target my_robot_interfaces__rosidl_generator_c
 my_robot_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.o" \
-"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.o" \
-"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.o" \
+"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.o" \
+"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.o" \
+"CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.o" \
 "CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__description.c.o" \
 "CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__functions.c.o" \
 "CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__type_support.c.o"
@@ -231,9 +231,9 @@ my_robot_interfaces__rosidl_generator_c_OBJECTS = \
 # External object files for target my_robot_interfaces__rosidl_generator_c
 my_robot_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
-libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c.o
-libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c.o
-libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c.o
+libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c.o
+libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c.o
+libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c.o
 libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__description.c.o
 libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__functions.c.o
 libmy_robot_interfaces__rosidl_generator_c.so: CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__type_support.c.o
@@ -254,13 +254,13 @@ CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/clean
 
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__description.c
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.c
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.h
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__struct.h
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.c
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.h
-CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/robot_command.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/distance__description.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/distance__struct.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.c
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.h
+CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/msg/distance.h
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/compute_speed.h
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__description.c
 CMakeFiles/my_robot_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__functions.c

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/srv/detail/compute_speed__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "my_robot_interfaces/srv/detail/compute_speed__functions.h"
 #include "my_robot_interfaces/srv/detail/compute_speed__struct.h"
+#include "my_robot_interfaces/srv/detail/compute_speed__functions.h"
+#include "my_robot_interfaces/srv/detail/compute_speed__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

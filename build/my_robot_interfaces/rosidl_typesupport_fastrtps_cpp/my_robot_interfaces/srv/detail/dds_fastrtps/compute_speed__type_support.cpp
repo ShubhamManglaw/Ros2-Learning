@@ -338,8 +338,8 @@ cdr_serialize(
   const my_robot_interfaces::srv::ComputeSpeed_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: output
-  cdr << ros_message.output;
+  // Member: speed
+  cdr << ros_message.speed;
 
   return true;
 }
@@ -350,8 +350,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   my_robot_interfaces::srv::ComputeSpeed_Response & ros_message)
 {
-  // Member: output
-  cdr >> ros_message.output;
+  // Member: speed
+  cdr >> ros_message.speed;
 
   return true;
 }  // NOLINT(readability/fn_size)
@@ -370,9 +370,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: output
+  // Member: speed
   {
-    size_t item_size = sizeof(ros_message.output);
+    size_t item_size = sizeof(ros_message.speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -400,7 +400,7 @@ max_serialized_size_ComputeSpeed_Response(
   full_bounded = true;
   is_plain = true;
 
-  // Member: output
+  // Member: speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -416,7 +416,7 @@ max_serialized_size_ComputeSpeed_Response(
     using DataType = my_robot_interfaces::srv::ComputeSpeed_Response;
     is_plain =
       (
-      offsetof(DataType, output) +
+      offsetof(DataType, speed) +
       last_member_size
       ) == ret_val;
   }
@@ -430,8 +430,8 @@ cdr_serialize_key(
   const my_robot_interfaces::srv::ComputeSpeed_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: output
-  cdr << ros_message.output;
+  // Member: speed
+  cdr << ros_message.speed;
 
   return true;
 }
@@ -449,9 +449,9 @@ get_serialized_size_key(
   (void)padding;
   (void)wchar_size;
 
-  // Member: output
+  // Member: speed
   {
-    size_t item_size = sizeof(ros_message.output);
+    size_t item_size = sizeof(ros_message.speed);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -478,7 +478,7 @@ max_serialized_size_key_ComputeSpeed_Response(
   full_bounded = true;
   is_plain = true;
 
-  // Member: output
+  // Member: speed
   {
     size_t array_size = 1;
     last_member_size = array_size * sizeof(uint32_t);
@@ -494,7 +494,7 @@ max_serialized_size_key_ComputeSpeed_Response(
     using DataType = my_robot_interfaces::srv::ComputeSpeed_Response;
     is_plain =
       (
-      offsetof(DataType, output) +
+      offsetof(DataType, speed) +
       last_member_size
       ) == ret_val;
   }

@@ -1,12 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/robot_command__type_support.cpp.o"
-  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/robot_command__type_support.cpp.o.d"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/distance__type_support.cpp.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/distance__type_support.cpp.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_speed__type_support.cpp.o"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_speed__type_support.cpp.o.d"
   "libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so"
-  "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/robot_command__type_support.cpp"
-  "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/robot_command__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/dds_fastrtps/distance__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/msg/detail/distance__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/compute_speed__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/my_robot_interfaces/srv/detail/dds_fastrtps/compute_speed__type_support.cpp"
 )

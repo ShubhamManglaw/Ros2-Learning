@@ -201,12 +201,12 @@ class ComputeSpeed_Response(metaclass=Metaclass_ComputeSpeed_Response):
     """Message class 'ComputeSpeed_Response'."""
 
     __slots__ = [
-        '_output',
+        '_speed',
         '_check_fields',
     ]
 
     _fields_and_field_types = {
-        'output': 'float',
+        'speed': 'float',
     }
 
     # This attribute is used to store an rosidl_parser.definition variable
@@ -224,7 +224,7 @@ class ComputeSpeed_Response(metaclass=Metaclass_ComputeSpeed_Response):
             assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
                 'Invalid arguments passed to constructor: %s' % \
                 ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.output = kwargs.get('output', float())
+        self.speed = kwargs.get('speed', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -256,7 +256,7 @@ class ComputeSpeed_Response(metaclass=Metaclass_ComputeSpeed_Response):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.output != other.output:
+        if self.speed != other.speed:
             return False
         return True
 
@@ -266,19 +266,19 @@ class ComputeSpeed_Response(metaclass=Metaclass_ComputeSpeed_Response):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def output(self):
-        """Message field 'output'."""
-        return self._output
+    def speed(self):
+        """Message field 'speed'."""
+        return self._speed
 
-    @output.setter
-    def output(self, value):
+    @speed.setter
+    def speed(self, value):
         if self._check_fields:
             assert \
                 isinstance(value, float), \
-                "The 'output' field must be of type 'float'"
+                "The 'speed' field must be of type 'float'"
             assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'output' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._output = value
+                "The 'speed' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
+        self._speed = value
 
 
 # Import statements for member types

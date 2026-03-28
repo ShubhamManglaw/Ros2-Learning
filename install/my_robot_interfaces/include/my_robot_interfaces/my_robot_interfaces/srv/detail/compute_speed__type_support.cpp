@@ -166,7 +166,7 @@ void ComputeSpeed_Response_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember ComputeSpeed_Response_message_member_array[1] = {
   {
-    "output",  // name
+    "speed",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
@@ -174,7 +174,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember ComputeSpeed_
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(my_robot_interfaces::srv::ComputeSpeed_Response, output),  // bytes offset in struct
+    offsetof(my_robot_interfaces::srv::ComputeSpeed_Response, speed),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

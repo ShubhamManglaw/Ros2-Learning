@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/robot_command__type_support.cpp.o"
-  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/robot_command__type_support.cpp.o.d"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/distance__type_support.cpp.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/msg/distance__type_support.cpp.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_speed__type_support.cpp.o"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_speed__type_support.cpp.o.d"
   "libmy_robot_interfaces__rosidl_typesupport_cpp.pdb"
   "libmy_robot_interfaces__rosidl_typesupport_cpp.so"
-  "rosidl_typesupport_cpp/my_robot_interfaces/msg/robot_command__type_support.cpp"
+  "rosidl_typesupport_cpp/my_robot_interfaces/msg/distance__type_support.cpp"
   "rosidl_typesupport_cpp/my_robot_interfaces/srv/compute_speed__type_support.cpp"
 )
 

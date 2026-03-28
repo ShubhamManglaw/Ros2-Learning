@@ -24,39 +24,39 @@ static struct PyModuleDef my_robot_interfaces__module = {
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_runtime_c/service_type_support_struct.h"
 #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "my_robot_interfaces/msg/detail/robot_command__type_support.h"
-#include "my_robot_interfaces/msg/detail/robot_command__struct.h"
-#include "my_robot_interfaces/msg/detail/robot_command__functions.h"
+#include "my_robot_interfaces/msg/detail/distance__type_support.h"
+#include "my_robot_interfaces/msg/detail/distance__struct.h"
+#include "my_robot_interfaces/msg/detail/distance__functions.h"
 
-static void * my_robot_interfaces__msg__robot_command__create_ros_message(void)
+static void * my_robot_interfaces__msg__distance__create_ros_message(void)
 {
-  return my_robot_interfaces__msg__RobotCommand__create();
+  return my_robot_interfaces__msg__Distance__create();
 }
 
-static void my_robot_interfaces__msg__robot_command__destroy_ros_message(void * raw_ros_message)
+static void my_robot_interfaces__msg__distance__destroy_ros_message(void * raw_ros_message)
 {
-  my_robot_interfaces__msg__RobotCommand * ros_message = (my_robot_interfaces__msg__RobotCommand *)raw_ros_message;
-  my_robot_interfaces__msg__RobotCommand__destroy(ros_message);
+  my_robot_interfaces__msg__Distance * ros_message = (my_robot_interfaces__msg__Distance *)raw_ros_message;
+  my_robot_interfaces__msg__Distance__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool my_robot_interfaces__msg__robot_command__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool my_robot_interfaces__msg__distance__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * my_robot_interfaces__msg__robot_command__convert_to_py(void * raw_ros_message);
+PyObject * my_robot_interfaces__msg__distance__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(my_robot_interfaces, msg, RobotCommand);
+ROSIDL_GET_MSG_TYPE_SUPPORT(my_robot_interfaces, msg, Distance);
 
 int8_t
-_register_msg_type__msg__robot_command(PyObject * pymodule)
+_register_msg_type__msg__distance(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&my_robot_interfaces__msg__robot_command__create_ros_message,
+    (void *)&my_robot_interfaces__msg__distance__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -64,7 +64,7 @@ _register_msg_type__msg__robot_command(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__msg__robot_command",
+    "create_ros_message_msg__msg__distance",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -75,7 +75,7 @@ _register_msg_type__msg__robot_command(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&my_robot_interfaces__msg__robot_command__destroy_ros_message,
+    (void *)&my_robot_interfaces__msg__distance__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -83,7 +83,7 @@ _register_msg_type__msg__robot_command(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__msg__robot_command",
+    "destroy_ros_message_msg__msg__distance",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -94,7 +94,7 @@ _register_msg_type__msg__robot_command(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&my_robot_interfaces__msg__robot_command__convert_from_py,
+    (void *)&my_robot_interfaces__msg__distance__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -102,7 +102,7 @@ _register_msg_type__msg__robot_command(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__msg__robot_command",
+    "convert_from_py_msg__msg__distance",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -113,7 +113,7 @@ _register_msg_type__msg__robot_command(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&my_robot_interfaces__msg__robot_command__convert_to_py,
+    (void *)&my_robot_interfaces__msg__distance__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -121,7 +121,7 @@ _register_msg_type__msg__robot_command(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__msg__robot_command",
+    "convert_to_py_msg__msg__distance",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -132,7 +132,7 @@ _register_msg_type__msg__robot_command(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(my_robot_interfaces, msg, RobotCommand),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(my_robot_interfaces, msg, Distance),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -140,7 +140,7 @@ _register_msg_type__msg__robot_command(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__msg__robot_command",
+    "type_support_msg__msg__distance",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -613,7 +613,7 @@ PyInit_my_robot_interfaces_s__rosidl_typesupport_introspection_c(void)
   }
   int8_t err;
 
-  err = _register_msg_type__msg__robot_command(pymodule);
+  err = _register_msg_type__msg__distance(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;

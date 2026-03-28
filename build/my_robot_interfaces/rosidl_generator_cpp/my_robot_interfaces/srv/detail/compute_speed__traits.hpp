@@ -120,10 +120,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: output
+  // member: speed
   {
-    out << "output: ";
-    rosidl_generator_traits::value_to_yaml(msg.output, out);
+    out << "speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.speed, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -132,13 +132,13 @@ inline void to_block_style_yaml(
   const ComputeSpeed_Response & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: output
+  // member: speed
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "output: ";
-    rosidl_generator_traits::value_to_yaml(msg.output, out);
+    out << "speed: ";
+    rosidl_generator_traits::value_to_yaml(msg.speed, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

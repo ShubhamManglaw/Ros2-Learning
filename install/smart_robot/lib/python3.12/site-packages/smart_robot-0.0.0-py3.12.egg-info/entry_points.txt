@@ -1,0 +1,4 @@
+[console_scripts]
+controller_node = smart_robot.controller_node:main
+sensor_node = smart_robot.sensor_node:main
+speed_service = smart_robot.speed_service:main

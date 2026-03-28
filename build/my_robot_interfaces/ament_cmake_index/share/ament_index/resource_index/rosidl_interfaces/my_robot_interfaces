@@ -1,4 +1,4 @@
-msg/RobotCommand.idl
-msg/RobotCommand.msg
+msg/Distance.idl
+msg/Distance.msg
 srv/ComputeSpeed.idl
 srv/ComputeSpeed.srv

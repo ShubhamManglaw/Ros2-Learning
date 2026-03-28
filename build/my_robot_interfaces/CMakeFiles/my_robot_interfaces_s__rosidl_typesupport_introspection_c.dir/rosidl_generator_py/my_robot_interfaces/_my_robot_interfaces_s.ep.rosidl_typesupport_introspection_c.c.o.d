@@ -229,10 +229,10 @@ CMakeFiles/my_robot_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_
  /opt/ros/jazzy/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
  /opt/ros/jazzy/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
- /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__type_support.h \
+ /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__type_support.h \
  /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__struct.h \
- /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/robot_command__functions.h \
+ /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__struct.h \
+ /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/msg/detail/distance__functions.h \
  /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__type_support.h \
  /home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/srv/detail/compute_speed__struct.h \
  /opt/ros/jazzy/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.h \

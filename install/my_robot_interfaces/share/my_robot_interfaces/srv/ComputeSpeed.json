@@ -115,7 +115,7 @@
         "type_name": "my_robot_interfaces/srv/ComputeSpeed_Response",
         "fields": [
           {
-            "name": "output",
+            "name": "speed",
             "type": {
               "type_id": 10,
               "capacity": 0,
@@ -176,7 +176,7 @@
   "type_hashes": [
     {
       "type_name": "my_robot_interfaces/srv/ComputeSpeed",
-      "hash_string": "RIHS01_7150253b219cd793cce272b826f0a5ebd8b375e3f7a2cea08bdaeaad4e07ae07"
+      "hash_string": "RIHS01_c780517b45bf9221a88bbbb3b567dbdddd73550a50dc2520c620c21dd3e5c0fa"
     },
     {
       "type_name": "builtin_interfaces/msg/Time",
@@ -184,7 +184,7 @@
     },
     {
       "type_name": "my_robot_interfaces/srv/ComputeSpeed_Event",
-      "hash_string": "RIHS01_5d8295a5505051713d478581f69a01890b957458c44fa2cca89c340c130187d7"
+      "hash_string": "RIHS01_2e27bc778bd3ba32940355dee8095bf76f1c08a1422cc92bd58437e016c3f0ce"
     },
     {
       "type_name": "my_robot_interfaces/srv/ComputeSpeed_Request",
@@ -192,7 +192,7 @@
     },
     {
       "type_name": "my_robot_interfaces/srv/ComputeSpeed_Response",
-      "hash_string": "RIHS01_b841715034ed7a23f95fa5e3e1420da44477029cbf02f0f64d34ba906f5d2e07"
+      "hash_string": "RIHS01_9b52acf66e09933245af133fed50af783e7c60a1a8a40d2508b04fc58d6361d1"
     },
     {
       "type_name": "service_msgs/msg/ServiceEventInfo",

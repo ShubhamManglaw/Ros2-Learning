@@ -47,7 +47,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/msg" TYPE FILE FILES "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/RobotCommand.json")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/msg" TYPE FILE FILES "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/msg/Distance.json")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -367,7 +367,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/msg" TYPE FILE FILES "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/RobotCommand.idl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/msg" TYPE FILE FILES "/home/shubham/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/Distance.idl")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -375,7 +375,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/msg" TYPE FILE FILES "/home/shubham/ros2_ws/src/my_robot_interfaces/msg/RobotCommand.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/msg" TYPE FILE FILES "/home/shubham/ros2_ws/src/my_robot_interfaces/msg/Distance.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -69,11 +69,11 @@ include /home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/
 /home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 /home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 /home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
-/home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_robot_command.py
+/home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_distance.py
 /home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_compute_speed.py
 /home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/__init__.py
 /home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/__init__.py
-/home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_robot_command_s.c
+/home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_distance_s.c
 /home/shubham/ros2_ws/build/my_robot_interfaces/my_robot_interfaces__py/CMakeFiles/my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_compute_speed_s.c
 
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/lib/rosidl_generator_py/rosidl_generator_py
@@ -89,7 +89,7 @@ rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_msg.py.em
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/rosidl_generator_py/resource/_srv.py.em
-rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/msg/RobotCommand.idl
+rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/msg/Distance.idl
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/my_robot_interfaces/srv/ComputeSpeed.idl
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
@@ -103,8 +103,8 @@ rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesup
 rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
 
-rosidl_generator_py/my_robot_interfaces/msg/_robot_command.py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_robot_command.py
+rosidl_generator_py/my_robot_interfaces/msg/_distance.py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_distance.py
 
 rosidl_generator_py/my_robot_interfaces/srv/_compute_speed.py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/srv/_compute_speed.py
@@ -115,8 +115,8 @@ rosidl_generator_py/my_robot_interfaces/msg/__init__.py: rosidl_generator_py/my_
 rosidl_generator_py/my_robot_interfaces/srv/__init__.py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/srv/__init__.py
 
-rosidl_generator_py/my_robot_interfaces/msg/_robot_command_s.c: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_robot_command_s.c
+rosidl_generator_py/my_robot_interfaces/msg/_distance_s.c: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/msg/_distance_s.c
 
 rosidl_generator_py/my_robot_interfaces/srv/_compute_speed_s.c: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/my_robot_interfaces/srv/_compute_speed_s.c
@@ -126,8 +126,8 @@ my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/_my_robot_inter
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/__init__.py
-my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_robot_command.py
-my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_robot_command_s.c
+my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_distance.py
+my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/msg/_distance_s.c
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/__init__.py
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_compute_speed.py
 my_robot_interfaces__py: rosidl_generator_py/my_robot_interfaces/srv/_compute_speed_s.c

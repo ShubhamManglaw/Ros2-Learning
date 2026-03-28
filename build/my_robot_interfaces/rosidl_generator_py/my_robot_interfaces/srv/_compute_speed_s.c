@@ -145,13 +145,13 @@ bool my_robot_interfaces__srv__compute_speed__response__convert_from_py(PyObject
     assert(strncmp("my_robot_interfaces.srv._compute_speed.ComputeSpeed_Response", full_classname_dest, 60) == 0);
   }
   my_robot_interfaces__srv__ComputeSpeed_Response * ros_message = _ros_message;
-  {  // output
-    PyObject * field = PyObject_GetAttrString(_pymsg, "output");
+  {  // speed
+    PyObject * field = PyObject_GetAttrString(_pymsg, "speed");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->output = (float)PyFloat_AS_DOUBLE(field);
+    ros_message->speed = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -176,11 +176,11 @@ PyObject * my_robot_interfaces__srv__compute_speed__response__convert_to_py(void
     }
   }
   my_robot_interfaces__srv__ComputeSpeed_Response * ros_message = (my_robot_interfaces__srv__ComputeSpeed_Response *)raw_ros_message;
-  {  // output
+  {  // speed
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->output);
+    field = PyFloat_FromDouble(ros_message->speed);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "output", field);
+      int rc = PyObject_SetAttrString(_pymessage, "speed", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

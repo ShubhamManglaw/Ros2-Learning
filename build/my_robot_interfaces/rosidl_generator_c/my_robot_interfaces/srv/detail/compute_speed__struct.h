@@ -41,7 +41,7 @@ typedef struct my_robot_interfaces__srv__ComputeSpeed_Request__Sequence
 /// Struct defined in srv/ComputeSpeed in the package my_robot_interfaces.
 typedef struct my_robot_interfaces__srv__ComputeSpeed_Response
 {
-  float output;
+  float speed;
 } my_robot_interfaces__srv__ComputeSpeed_Response;
 
 // Struct for a sequence of my_robot_interfaces__srv__ComputeSpeed_Response.

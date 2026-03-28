@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_robot_interfaces__rosidl_generator_type_description"
-  "rosidl_generator_type_description/my_robot_interfaces/msg/RobotCommand.json"
+  "rosidl_generator_type_description/my_robot_interfaces/msg/Distance.json"
   "rosidl_generator_type_description/my_robot_interfaces/srv/ComputeSpeed.json"
 )
 

@@ -1,0 +1,23 @@
+[1.544s] Invoking command in '/home/shubham/ros2_ws/src/smart_robot': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shubham/ros2_ws/build/smart_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_robot build --build-base /home/shubham/ros2_ws/build/smart_robot/build install --record /home/shubham/ros2_ws/build/smart_robot/install.log --single-version-externally-managed install_data
+[1.912s] running egg_info
+[1.939s] writing ../../build/smart_robot/smart_robot.egg-info/PKG-INFO
+[1.939s] writing dependency_links to ../../build/smart_robot/smart_robot.egg-info/dependency_links.txt
+[1.941s] writing entry points to ../../build/smart_robot/smart_robot.egg-info/entry_points.txt
+[1.941s] writing requirements to ../../build/smart_robot/smart_robot.egg-info/requires.txt
+[1.941s] writing top-level names to ../../build/smart_robot/smart_robot.egg-info/top_level.txt
+[1.995s] reading manifest file '../../build/smart_robot/smart_robot.egg-info/SOURCES.txt'
+[1.998s] writing manifest file '../../build/smart_robot/smart_robot.egg-info/SOURCES.txt'
+[1.998s] running build
+[1.998s] running build_py
+[1.998s] running install
+[2.006s] running install_lib
+[2.034s] running install_data
+[2.034s] running install_egg_info
+[2.062s] removing '/home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot-0.0.0-py3.12.egg-info' (and everything under it)
+[2.065s] Copying ../../build/smart_robot/smart_robot.egg-info to /home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages/smart_robot-0.0.0-py3.12.egg-info
+[2.065s] running install_scripts
+[2.259s] Installing controller_node script to /home/shubham/ros2_ws/install/smart_robot/lib/smart_robot
+[2.259s] Installing sensor_node script to /home/shubham/ros2_ws/install/smart_robot/lib/smart_robot
+[2.260s] Installing speed_service script to /home/shubham/ros2_ws/install/smart_robot/lib/smart_robot
+[2.260s] writing list of installed files to '/home/shubham/ros2_ws/build/smart_robot/install.log'
+[2.312s] Invoked command in '/home/shubham/ros2_ws/src/smart_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/shubham/ros2_ws/build/smart_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/shubham/ros2_ws/install/smart_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_robot build --build-base /home/shubham/ros2_ws/build/smart_robot/build install --record /home/shubham/ros2_ws/build/smart_robot/install.log --single-version-externally-managed install_data

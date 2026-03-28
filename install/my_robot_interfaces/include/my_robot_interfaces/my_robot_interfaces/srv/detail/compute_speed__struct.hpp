@@ -156,7 +156,7 @@ struct ComputeSpeed_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->output = 0.0f;
+      this->speed = 0.0f;
     }
   }
 
@@ -166,20 +166,20 @@ struct ComputeSpeed_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->output = 0.0f;
+      this->speed = 0.0f;
     }
   }
 
   // field types and members
-  using _output_type =
+  using _speed_type =
     float;
-  _output_type output;
+  _speed_type speed;
 
   // setters for named parameter idiom
-  Type & set__output(
+  Type & set__speed(
     const float & _arg)
   {
-    this->output = _arg;
+    this->speed = _arg;
     return *this;
   }
 
@@ -225,7 +225,7 @@ struct ComputeSpeed_Response_
   // comparison operators
   bool operator==(const ComputeSpeed_Response_ & other) const
   {
-    if (this->output != other.output) {
+    if (this->speed != other.speed) {
       return false;
     }
     return true;

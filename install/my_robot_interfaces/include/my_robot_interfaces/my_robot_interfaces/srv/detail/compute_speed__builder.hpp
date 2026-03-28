@@ -66,15 +66,15 @@ namespace srv
 namespace builder
 {
 
-class Init_ComputeSpeed_Response_output
+class Init_ComputeSpeed_Response_speed
 {
 public:
-  Init_ComputeSpeed_Response_output()
+  Init_ComputeSpeed_Response_speed()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::my_robot_interfaces::srv::ComputeSpeed_Response output(::my_robot_interfaces::srv::ComputeSpeed_Response::_output_type arg)
+  ::my_robot_interfaces::srv::ComputeSpeed_Response speed(::my_robot_interfaces::srv::ComputeSpeed_Response::_speed_type arg)
   {
-    msg_.output = std::move(arg);
+    msg_.speed = std::move(arg);
     return std::move(msg_);
   }
 
@@ -93,7 +93,7 @@ template<>
 inline
 auto build<::my_robot_interfaces::srv::ComputeSpeed_Response>()
 {
-  return my_robot_interfaces::srv::builder::Init_ComputeSpeed_Response_output();
+  return my_robot_interfaces::srv::builder::Init_ComputeSpeed_Response_speed();
 }
 
 }  // namespace my_robot_interfaces
